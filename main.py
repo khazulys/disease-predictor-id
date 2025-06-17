@@ -1,10 +1,10 @@
 from model.predictor import DiseasePredictor
 
 predictor = DiseasePredictor(
-    dataset_path="dataset.csv",
-    desc_path="symptom_Description.csv",
-    precaution_path="symptom_precaution.csv",
-    symptom_path="Symptom-severity.csv"
+    dataset_path="dataset/dataset.csv",
+    desc_path="dataset/symptom_Description.csv",
+    precaution_path="dataset/symptom_precaution.csv",
+    symptom_path="dataset/Symptom-severity.csv"
 )
 
 if __name__ == "__main__":
